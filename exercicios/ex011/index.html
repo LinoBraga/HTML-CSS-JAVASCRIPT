@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Abrir em vários dispositivos ou aumentar e diminuir navegador</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/fotocelular.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/fototablet.png" type="image/png">
+        <img src="imagens/fotocomputador.png" alt="">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.opg" type="audio/opg">
+        <p>seu navegador aparentemente não consegue reproduzir audio tente baixar o arquivo mp3 <a href="midia/guanacast-33.mp3">aqui!</a></p>
+    </audio>
+</body>
+</html>
